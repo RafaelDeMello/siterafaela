@@ -9,6 +9,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.font-handmade {
+  font-family: 'Dancing Script', cursive;
+}
 
 
 @layer base {
@@ -76,4 +79,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -1,9 +1,23 @@
+import { About } from "@/components/about/About";
+import { Hero } from "@/components/home/hero";
 import { Navbar } from "@/components/home/Navbar";
+
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
+           <Navbar />
+          <section id="hero">
+            <Hero />
+          </section>
+          <hr className="border-t border-gray-200/70 my-0" />
+          <section id="sobre">
+            <About />
+          </section>
+          <hr className="border-t border-gray-200/70 my-0" />
+          <section id="portfolio"></section>
+          <hr className="border-t border-gray-200/70 my-0" />
+          <section id="contato"></section>
     </main>
   );
 }
