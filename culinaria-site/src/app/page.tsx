@@ -1,6 +1,7 @@
 import { About } from "@/components/about/About";
 import { Hero } from "@/components/home/hero";
 import { Navbar } from "@/components/home/Navbar";
+import { Portfolio } from "@/components/products/produtos";
 
 
 export default function Home() {
@@ -15,7 +16,9 @@ export default function Home() {
             <About />
           </section>
           <hr className="border-t border-gray-200/70 my-0" />
-          <section id="portfolio"></section>
+          <section id="portfolio">
+            <Portfolio />
+          </section>
           <hr className="border-t border-gray-200/70 my-0" />
           <section id="contato"></section>
     </main>
