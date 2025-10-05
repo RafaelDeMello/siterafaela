@@ -32,6 +32,21 @@ export function Hero() {
       >
         Gastronomia com arte
       </motion.h1>
+
+      {/* Setinha para baixo */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex justify-center">
+        <a href="#sobre" aria-label="Ir para a próxima seção">
+          <svg
+            className="w-8 h-8 text-gray-400 animate-bounce"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </a>
+      </div>
     </section>
   )
 }

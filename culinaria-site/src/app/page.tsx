@@ -13,18 +13,19 @@ export default function Home() {
           <section id="hero">
             <Hero />
           </section>
-          <hr className="border-t border-gray-200/70 my-0" />
+          <hr className="border-t-[1px] border-[#EACDD2] w-full my-8" />
           <section id="sobre">
             <About />
           </section>
-          <hr className="border-t border-gray-200/70 my-0" />
+           <hr className="border-t-[1px] border-[#EACDD2] w-full my-8" />
           <section id="portfolio">
             <Portfolio />
           </section>
-          <hr className="border-t border-gray-200/70 my-0" />
+           <hr className="border-t-[1px] border-[#EACDD2] w-full my-8" />
           <section id="contato">
             <Contato />
           </section>
+           <hr className="border-t-[1px] border-[#EACDD2] w-full my-8" />
           <footer>
             <Footer />
           </footer>

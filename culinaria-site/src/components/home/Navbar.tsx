@@ -22,7 +22,7 @@ export function Navbar() {
   }
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
+    <nav className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 border-b border-[#EACDD2]">
       <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
         {/* Desktop Menu */}
         <div className="hidden md:flex mx-auto">
@@ -43,7 +43,7 @@ export function Navbar() {
                 <NavigationMenuLink asChild>
                   <a
                     href="#sobre"
-                    className={navigationMenuTriggerStyle()}
+                    className={navigationMenuTriggerStyle() }
                     onClick={e => handleSmoothScroll(e, "sobre")}
                   >
                     Sobre
